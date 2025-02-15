@@ -28,6 +28,7 @@ OE_VERSION="17.0"
 # Set this to True if you want to install the Odoo enterprise version!
 IS_ENTERPRISE="False"
 # Installs postgreSQL V14 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
+INSTALL_POSTGRESQL="False"
 INSTALL_POSTGRESQL_FOURTEEN="True"
 # Set this to True if you want to install Nginx!
 INSTALL_NGINX="False"
